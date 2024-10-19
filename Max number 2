@@ -1,0 +1,7 @@
+# Program to find maximum between two numbers 
+x= int(input("enter any no."))
+y= int(input("enter any no."))
+if(x>y):
+print ("x is greater than y")
+else:
+print("y is greater than x")
