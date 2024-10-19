@@ -1,0 +1,15 @@
+# Program to find profit or loss
+SP=int(input ("enter any amount"))
+CP=int(input("enter any amount"))
+profit=(SP-CP)
+loss=(CP-SP)
+if(profit>0):
+    print ("incurrred profit of", profit)
+    profit_per=(profit/CP)*100
+    print("profit percent=", profit_per)
+elif(profit<0):
+    print ("incurred loss of", loss)
+    loss_per=(loss/CP)*100
+    print("loss percent=", loss_per)
+else:
+    print ("there's neither profit nor loss")
