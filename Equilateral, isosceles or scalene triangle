@@ -1,0 +1,10 @@
+# Program to check whether a given triangle is equilateral, isosceles or scalene.
+x= int(input ("enter any length "))
+y= int(input ("enter any length "))
+z= int(input ("enter any length "))
+if(x==y==z): 
+    print("triangle is equilateral")
+elif(x==y or y==z or x==z):
+    print ("triangle is isosceles")
+elif(x!=y!=z):
+    print("triangle is scalene")
