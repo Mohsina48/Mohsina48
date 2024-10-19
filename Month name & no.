@@ -1,0 +1,40 @@
+#Program to print month name and no. of days in it.
+x=int(input("Enter any number between 1-12:"))
+if(x==1):
+    print("January")
+    print("It has 31 days")
+elif(x==2):
+    print("Febuary")
+    print("It has 28-29 days")
+elif(x==3):
+    print("March")
+    print("It has 31 days")
+elif(x==4):
+    print("April")
+    print("It has 30 days")
+elif(x==5):
+    print("May")
+    print("It has 31 days")
+elif(x==6):
+    print("June")
+    print("It has 30 days")
+elif(x==7):
+    print("July")
+    print("It has 31 days")
+elif(x==8):
+    print("August")
+    print("It has 31 days")
+elif(x==9):
+    print("September")
+    print("It has 30 days")
+elif(x==10):
+    print("October")
+    print("It has 31 days")
+elif(x==11):
+    print("November")
+    print("It has 30 days")
+elif(x==12):
+    print("December")
+    print("It has 31 days")
+else:
+    print("Please enter  number between 1 - 12")
