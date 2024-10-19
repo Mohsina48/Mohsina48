@@ -1,0 +1,8 @@
+# Program to check if an alphabet is in uppercase or lowercase.
+c=str(input("Enter any character:"))
+if(c>='a' and c<='z') :
+    print(c,"is written in lowercase")
+elif(c>='A' and c<='Z') :
+    print(c,"is written is uppercase.")
+else:
+    print(c,"is not an alphabet")
