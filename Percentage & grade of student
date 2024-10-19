@@ -1,0 +1,22 @@
+# Program to calculate the percentage and grade of a student.
+mar_maths=int(input("enter marks in maths"))
+mar_phy=int(input ("enter marks in physics"))
+mar_bio=int(input ("enter marks in biology"))
+mar_chem=int(input("enter marks in chemistry"))
+mar_com=int(input ("enter marks in computers"))
+total= mar_maths+mar_phy+mar_bio+mar_chem+mar_com
+print("grand total marks", total, "out of 500")
+per=(total/500)*100
+print("percentage of student=", per)
+if(per>=90):
+    print("Grade A")
+elif(per>=80):
+    print("Grade B")
+elif(per>=70):
+    print("Grade C")
+elif(per>=60):
+    print("Grade D")
+elif(per>=40):
+    print("Grade E")
+elif(per<40):
+    print("Grade F")
