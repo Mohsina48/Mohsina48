@@ -1,0 +1,8 @@
+# Program to check whether a given no. is +ve,-ve or 0
+x= int(input ("enter any no.))
+if(x>0):
+print("x is a +ve integer")
+elif(x<0):
+print("x is a -ve integer")
+else:
+print("x is equal to zero")
