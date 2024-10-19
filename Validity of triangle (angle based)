@@ -1,0 +1,9 @@
+# Program to check whether the given triangle is valid or not.
+x= int(input("enter any angle>0"))
+y= int(input("enter any angle>0"))
+z=int(input("enter any angle>0"))
+sum=x+y+z
+if(sum==180):
+    print("triangle is valid")
+else:
+    print("triangle is invalid")
